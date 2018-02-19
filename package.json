@@ -1,0 +1,40 @@
+{
+  "name": "projekt1_2",
+  "version": "1.0.0",
+  "description": "Pierwsza gra",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "builds": "webpack-dev-server src/app.jsx --open",
+    "prod": "webpack -p"
+  },
+  "author": "Grzegorz Lade",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^0.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "postcss-cli": "^4.1.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.7.1",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
